@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-WEEK 2K24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>E-WEEK <span id="typingAnimation">2K24</span></h1>
+        <div id="teamPoints" class="teamPoints"></div>
+        <div id="gameResults" class="gameRows"></div>
+    </div>
+
+    <div id="infoButtonContainer">
+        <button id="infoButton" onclick="toggleCreatorInfo()">i</button>
+    </div>
+    <div id="creatorInfo">
+      <p>Created by : KANISTAN E21</p>
+        <!-- Add any additional information about the creator -->
+    </div>
+
+    <div id="detailsPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+         
+            <div id="detailsContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+
+</html>
