@@ -266,7 +266,7 @@ games.forEach((game) => {
     } else if (game.name === 'Art') {
         gameBox.style.backgroundImage = 'url("art.jpeg")';
     } else if (game.name === 'Gaming') {
-        gameBox.style.backgroundImage = 'url("image/gaming.jpeg")';
+        gameBox.style.backgroundImage = 'url("gaming.jpeg")';
     } else if (game.name === 'Netball') {
         gameBox.style.backgroundImage = 'url("netball.jpeg")';
     } else if (game.name === 'Singing') {
