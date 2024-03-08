@@ -150,7 +150,7 @@ const teams = [
 
 // Game data (replace with actual data for 35 games)
 const games = [
-    { name: 'Football', winner: 'E20', firstRunnerUp: 'E21', secondRunnerUp: 'E22', pointsDistribution: [15, 8, 3], captains: ['pogitha', 'kanistan', 'kagee'] },
+    { name: 'Football', winner: 'E20', firstRunnerUp: 'E21', secondRunnerUp: 'E22', pointsDistribution: [15, 08, 03], captains: ['pogitha', 'kanistan', 'kagee'] },
     { name: 'Cricket', winner: 'E22', firstRunnerUp: 'E20', secondRunnerUp: 'STAFF', pointsDistribution: [20, 10, 5], captains: ['kagee', 'pogitha', 'akshaya'] },
     { name: 'Chess', winner: 'E21', firstRunnerUp: 'E23', secondRunnerUp: 'E20', pointsDistribution: [8, 6, 4], captains: ['kanistan', 'gowsi', 'pogitha'] },
     { name: 'Vollyball', winner: 'E21', firstRunnerUp: 'E20', secondRunnerUp: 'E22', pointsDistribution: [15, 8, 3], captains: ['pogitha', 'kanistan', 'kagee'] },
